@@ -325,12 +325,29 @@ body {
     }
 
     .partners-item {
-        width: 2300px;
+        width: 230px;
         margin: 0;
     }
 
     .partners__button {
         padding: 12px 17px;
         margin-top: 50px;
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width: 1200px) {
+    .partners__section {
+        padding-top: 69px;
+        padding-bottom: 72px;
+    }
+    
+    .partners__list {
+        gap: 37px;
+    }
+
+    .partners-item {
+        width: 194px;
     }
 }
