@@ -327,10 +327,21 @@ body {
     }
 
     .partners-item {
-        width: 211px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 27px;
+        width: 2300px;
+        margin: 0;
+    }
+    
+    .icon__bcg--red {
+        background-color: #FF4E50;
+    }
+    .icon__bcg--green {
+        background-color: #1CD7AD;
+    }
+    .icon__bcg--blue {
+        background-color: #4E73DB;
+    }
+    .icon__bcg--yellow {
+        background-color: #FFA507;
     }
     
     .partners__thumb {
@@ -384,5 +395,6 @@ body {
         border: 2px solid #FF4E50;
         border-radius: 50px;
         padding: 12px 59px;
+        margin-top: 50px;
     }
 }
