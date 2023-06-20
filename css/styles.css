@@ -1,13 +1,4 @@
 
-
-/* partners */
-
-.partners__section {
-    padding-top: 67px;
-    padding-bottom: 56px;
-    text-align: center;
-}
-
 .partners__title {
     font-size: 22.0041px;
     line-height: 27px;
@@ -83,11 +74,6 @@
 /* tablet */
 
 @media screen and (min-width: 768px) {
-    .partners__section {
-        padding-top: 71px;
-        padding-bottom: 39px;
-    }
-    
     .partners__title {
         margin-bottom: 31px;
     }
@@ -113,11 +99,6 @@
 /* desktop */
 
 @media screen and (min-width: 1200px) {
-    .partners__section {
-        padding-top: 69px;
-        padding-bottom: 72px;
-    }
-    
     .partners__list {
         gap: 37px;
     }
